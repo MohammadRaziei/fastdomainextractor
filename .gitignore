@@ -1,5 +1,3 @@
-Here is a sample .gitignore file for the given tree of git repository:
-
 # Ignore compiled files
 *.class
 *.jar
