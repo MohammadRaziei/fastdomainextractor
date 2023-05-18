@@ -167,6 +167,6 @@ fn main() {
         .extract_domain_parts(&domain)
         .expect("Error extracting domain parts");
 
-    println!("{{\n\t\"Suffix\": \"{}\",\n\t\"Domain\": \"{}\",\n\t\"Subdomain\": \"{}\"\n}}", suffix, domain_part, subdomain);
+    println!("{{\"suffix\": \"{}\", \"domain\": \"{}\", \"subdomain\": \"{}\"}}", suffix, domain_part, subdomain);
 
 }
